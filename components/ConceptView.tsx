@@ -1,11 +1,12 @@
+
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Subject } from '../types';
-import { generateConceptExplanation } from '../services/geminiService';
-import Spinner from './common/Spinner';
-import Button from './common/Button';
-import { AlertCircleIcon } from './icons/AlertCircleIcon';
-import { DumbbellIcon } from './icons/DumbbellIcon';
+import { Subject } from '../types.ts';
+import { generateConceptExplanation } from '../services/geminiService.ts';
+import Spinner from './common/Spinner.tsx';
+import Button from './common/Button.tsx';
+import { AlertCircleIcon } from './icons/AlertCircleIcon.tsx';
+import { DumbbellIcon } from './icons/DumbbellIcon.tsx';
 
 interface ConceptViewProps {
     subject: Subject;

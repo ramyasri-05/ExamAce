@@ -1,10 +1,11 @@
+
 import React, { useState, useEffect, useRef } from 'react';
-import Button from './common/Button';
-import { PlayIcon } from './icons/PlayIcon';
-import { PauseIcon } from './icons/PauseIcon';
-import { SaveIcon } from './icons/SaveIcon';
-import { XIcon } from './icons/XIcon';
-import { View } from '../App';
+import Button from './common/Button.tsx';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { PauseIcon } from './icons/PauseIcon.tsx';
+import { SaveIcon } from './icons/SaveIcon.tsx';
+import { XIcon } from './icons/XIcon.tsx';
+import { View } from '../App.tsx';
 
 interface FocusModeProps {
     setStudyTimeToday: React.Dispatch<React.SetStateAction<number>>;

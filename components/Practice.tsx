@@ -1,12 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Question } from '../types';
-import { generateConceptQuiz, generateConceptExplanation } from '../services/geminiService';
-import Button from './common/Button';
-import Spinner from './common/Spinner';
-import Card from './common/Card';
-import { BrainCircuitIcon } from './icons/BrainCircuitIcon';
-import { AlertCircleIcon } from './icons/AlertCircleIcon';
+import { Question } from '../types.ts';
+import { generateConceptQuiz, generateConceptExplanation } from '../services/geminiService.ts';
+import Button from './common/Button.tsx';
+import Spinner from './common/Spinner.tsx';
+import Card from './common/Card.tsx';
+import { BrainCircuitIcon } from './icons/BrainCircuitIcon.tsx';
+import { AlertCircleIcon } from './icons/AlertCircleIcon.tsx';
 
 type PracticeState = 'input' | 'loadingExplanation' | 'explanation' | 'loadingQuiz' | 'quiz' | 'results' | 'error';
 

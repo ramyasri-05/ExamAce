@@ -1,12 +1,13 @@
+
 import React, { useState, useEffect, useRef } from 'react';
-import Card from './common/Card';
-import Button from './common/Button';
-import { PlayIcon } from './icons/PlayIcon';
-import { PauseIcon } from './icons/PauseIcon';
-import { TargetIcon } from './icons/TargetIcon';
-import { DailyGoalIcon } from './icons/DailyGoalIcon';
-import { TrendingUpIcon } from './icons/TrendingUpIcon';
-import { CalendarDaysIcon } from './icons/CalendarDaysIcon';
+import Card from './common/Card.tsx';
+import Button from './common/Button.tsx';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { PauseIcon } from './icons/PauseIcon.tsx';
+import { TargetIcon } from './icons/TargetIcon.tsx';
+import { DailyGoalIcon } from './icons/DailyGoalIcon.tsx';
+import { TrendingUpIcon } from './icons/TrendingUpIcon.tsx';
+import { CalendarDaysIcon } from './icons/CalendarDaysIcon.tsx';
 
 interface StudyPlanProps {
     studyTimeToday: number;

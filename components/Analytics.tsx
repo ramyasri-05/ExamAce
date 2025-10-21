@@ -1,14 +1,15 @@
+
 import React, { useState, useEffect } from 'react';
-import { QuizResult } from '../types';
-import Card from './common/Card';
-import ScoreTrendChart from './ScoreTrendChart';
-import SubjectAverageChart from './SubjectAverageChart';
-import { AwardIcon } from './icons/AwardIcon';
-import { TrendingUpIcon } from './icons/TrendingUpIcon';
-import { BarChartIcon } from './icons/BarChartIcon';
-import { TargetIcon } from './icons/TargetIcon';
-import { TimerIcon } from './icons/TimerIcon';
-import { MOCK_QUIZ_HISTORY } from '../constants';
+import { QuizResult } from '../types.ts';
+import Card from './common/Card.tsx';
+import ScoreTrendChart from './ScoreTrendChart.tsx';
+import SubjectAverageChart from './SubjectAverageChart.tsx';
+import { AwardIcon } from './icons/AwardIcon.tsx';
+import { TrendingUpIcon } from './icons/TrendingUpIcon.tsx';
+import { BarChartIcon } from './icons/BarChartIcon.tsx';
+import { TargetIcon } from './icons/TargetIcon.tsx';
+import { TimerIcon } from './icons/TimerIcon.tsx';
+import { MOCK_QUIZ_HISTORY } from '../constants.ts';
 
 const StatCard: React.FC<{
     icon: React.FC<React.SVGProps<SVGSVGElement>>;

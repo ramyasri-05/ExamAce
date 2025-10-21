@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { QuizResult } from '../types';
+import { QuizResult } from '../types.ts';
 
 interface ScoreTrendChartProps {
   data: QuizResult[];

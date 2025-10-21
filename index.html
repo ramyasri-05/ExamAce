@@ -20,6 +20,8 @@
         },
       }
     </script>
+    <!-- Add Babel for in-browser JSX and TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script type="importmap">
 {
   "imports": {
@@ -37,6 +39,7 @@
 </head>
   <body class="bg-[#F7F8FA] text-gray-900 antialiased">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Use type="text/babel" to enable in-browser transpilation for TSX/JSX -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
   </body>
 </html>

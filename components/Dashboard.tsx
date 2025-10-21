@@ -1,23 +1,24 @@
+
 import React, { useState, useEffect } from 'react';
-import Card from './common/Card';
-import Button from './common/Button';
-import { InfoIcon } from './icons/InfoIcon';
-import { AlertTriangleIcon } from './icons/AlertTriangleIcon';
-import { ActivityIcon } from './icons/ActivityIcon';
-import { SparklesIcon } from './icons/SparklesIcon';
-import { ChevronRightIcon } from './icons/ChevronRightIcon';
-import { PlayIcon } from './icons/PlayIcon';
-import { BarChartIcon } from './icons/BarChartIcon';
-import { CalendarDaysIcon } from './icons/CalendarDaysIcon';
-import { SunIcon } from './icons/SunIcon';
-import { TimerIcon } from './icons/TimerIcon';
-import { TrophyIcon } from './icons/TrophyIcon';
-import { TargetIcon } from './icons/TargetIcon';
-import { FlameIcon } from './icons/FlameIcon';
-import { MOCK_QUIZ_HISTORY, MOCK_SUBJECTS } from '../constants';
-import { generateFocusItems } from '../services/geminiService';
-import { QuizResult, Subject } from '../types';
-import { View } from '../App';
+import Card from './common/Card.tsx';
+import Button from './common/Button.tsx';
+import { InfoIcon } from './icons/InfoIcon.tsx';
+import { AlertTriangleIcon } from './icons/AlertTriangleIcon.tsx';
+import { ActivityIcon } from './icons/ActivityIcon.tsx';
+import { SparklesIcon } from './icons/SparklesIcon.tsx';
+import { ChevronRightIcon } from './icons/ChevronRightIcon.tsx';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { BarChartIcon } from './icons/BarChartIcon.tsx';
+import { CalendarDaysIcon } from './icons/CalendarDaysIcon.tsx';
+import { SunIcon } from './icons/SunIcon.tsx';
+import { TimerIcon } from './icons/TimerIcon.tsx';
+import { TrophyIcon } from './icons/TrophyIcon.tsx';
+import { TargetIcon } from './icons/TargetIcon.tsx';
+import { FlameIcon } from './icons/FlameIcon.tsx';
+import { MOCK_QUIZ_HISTORY, MOCK_SUBJECTS } from '../constants.ts';
+import { generateFocusItems } from '../services/geminiService.ts';
+import { QuizResult, Subject } from '../types.ts';
+import { View } from '../App.tsx';
 
 const priorityStyles: { [key: string]: string } = {
     high: 'bg-orange-100 text-orange-700',
