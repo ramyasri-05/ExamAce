@@ -25,18 +25,19 @@
     <script src="https://unpkg.com/systemjs@6.15.1/dist/s.min.js"></script>
     <script src="https://unpkg.com/systemjs-plugin-babel@0.0.25/plugin-babel.js"></script>
     <script src="https://unpkg.com/systemjs-plugin-babel@0.0.25/systemjs-babel-browser.js"></script>
-  <script type="systemjs-importmap">
-{
-  "imports": {
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
-  }
-}
-</script>
+    
+    <!-- SystemJS Import Map -->
+    <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
+        "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+        "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
+      }
+    }
+    </script>
 <script type="importmap">
 {
   "imports": {
