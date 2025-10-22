@@ -1,13 +1,14 @@
+
 import React, { useState } from 'react';
-import { MOCK_SUBJECTS, MOCK_QUIZ_HISTORY } from '../constants';
-import { Subject } from '../types';
-import Card from './common/Card';
-import { ChevronRightIcon } from './icons/ChevronRightIcon';
-import Button from './common/Button';
-import { BookCopyIcon } from './icons/BookCopyIcon';
-import ConceptView from './ConceptView';
-import Chatbot from './Chatbot';
-import { MessageCircleIcon } from './icons/MessageCircleIcon';
+import { MOCK_SUBJECTS, MOCK_QUIZ_HISTORY } from '../constants.ts';
+import { Subject } from '../types.ts';
+import Card from './common/Card.tsx';
+import { ChevronRightIcon } from './icons/ChevronRightIcon.tsx';
+import Button from './common/Button.tsx';
+import { BookCopyIcon } from './icons/BookCopyIcon.tsx';
+import ConceptView from './ConceptView.tsx';
+import Chatbot from './Chatbot.tsx';
+import { MessageCircleIcon } from './icons/MessageCircleIcon.tsx';
 
 interface SubjectsProps {
     onStartPractice: (concept: string) => void;

@@ -1,13 +1,14 @@
+
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import Dashboard from './components/Dashboard';
-import Subjects from './components/Subjects';
-import StudyPlan from './components/StudyPlan';
-import Practice from './components/Practice';
-import Analytics from './components/Analytics';
-import Profile from './components/Profile';
-import Login from './components/Login';
-import SetGoalModal from './components/SetGoalModal';
+import Sidebar from './components/Sidebar.tsx';
+import Dashboard from './components/Dashboard.tsx';
+import Subjects from './components/Subjects.tsx';
+import StudyPlan from './components/StudyPlan.tsx';
+import Practice from './components/Practice.tsx';
+import Analytics from './components/Analytics.tsx';
+import Profile from './components/Profile.tsx';
+import Login from './components/Login.tsx';
+import SetGoalModal from './components/SetGoalModal.tsx';
 
 export type View = 'dashboard' | 'subjects' | 'study-plan' | 'practice' | 'analytics' | 'profile';
 

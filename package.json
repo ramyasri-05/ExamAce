@@ -14,9 +14,17 @@
   "dependencies": {
     "@google/genai": "^1.25.0",
     "react": "^19.2.0",
+<<<<<<< HEAD
     "react-dom": "^19.2.0",
     "react-markdown": "^10.1.0",
     "recharts": "^3.3.0"
+=======
+    "recharts": "^3.3.0",
+    "react-markdown": "^10.1.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.1.11",
+    "@vitejs/plugin-react": "^5.0.4"
+>>>>>>> 6fddf3ad5979626ff361d0a2472912bdd43188d1
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

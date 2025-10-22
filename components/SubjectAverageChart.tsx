@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import { QuizResult } from '../types';
+import { QuizResult } from '../types.ts';
 
 interface SubjectAverageChartProps {
   data: QuizResult[];

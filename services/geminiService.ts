@@ -1,6 +1,7 @@
+
 import { GoogleGenAI, Type, Chat, Modality } from "@google/genai";
 // FIX: Imported QuizResult to be used in the new startChatSession function.
-import { Question, QuizResult } from '../types';
+import { Question, QuizResult } from '../types.ts';
 
 console.log("Attempting to use API Key:", process.env.API_KEY);
 export const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });

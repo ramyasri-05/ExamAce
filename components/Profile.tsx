@@ -1,9 +1,10 @@
+
 import React from 'react';
-import { User } from '../types';
-import Card from './common/Card';
-import Button from './common/Button';
-import { UserIcon } from './icons/UserIcon';
-import { LogOutIcon } from './icons/LogOutIcon';
+import { User } from '../types.ts';
+import Card from './common/Card.tsx';
+import Button from './common/Button.tsx';
+import { UserIcon } from './icons/UserIcon.tsx';
+import { LogOutIcon } from './icons/LogOutIcon.tsx';
 
 // Mock data
 const mockUser: User = {

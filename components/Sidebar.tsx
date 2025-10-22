@@ -1,12 +1,13 @@
+
 import React, { useState, useEffect } from 'react';
-import { LayoutGridIcon } from './icons/LayoutGridIcon';
-import { BookCopyIcon } from './icons/BookCopyIcon';
-import { CalendarDaysIcon } from './icons/CalendarDaysIcon';
-import { TrendingUpIcon } from './icons/TrendingUpIcon';
-import { UserIcon } from './icons/UserIcon';
-import { DumbbellIcon } from './icons/DumbbellIcon';
-import MiniFocusTimer from './MiniFocusTimer';
-import { ExamAceLogoIcon } from './icons/ExamAceLogoIcon';
+import { LayoutGridIcon } from './icons/LayoutGridIcon.tsx';
+import { BookCopyIcon } from './icons/BookCopyIcon.tsx';
+import { CalendarDaysIcon } from './icons/CalendarDaysIcon.tsx';
+import { TrendingUpIcon } from './icons/TrendingUpIcon.tsx';
+import { UserIcon } from './icons/UserIcon.tsx';
+import { DumbbellIcon } from './icons/DumbbellIcon.tsx';
+import MiniFocusTimer from './MiniFocusTimer.tsx';
+import { ExamAceLogoIcon } from './icons/ExamAceLogoIcon.tsx';
 
 type View = 'dashboard' | 'subjects' | 'study-plan' | 'practice' | 'analytics' | 'profile';
 

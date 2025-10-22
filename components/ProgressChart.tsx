@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { QuizResult } from '../types';
+import { QuizResult } from '../types.ts';
 
 interface ProgressChartProps {
   data: QuizResult[];

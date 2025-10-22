@@ -1,8 +1,9 @@
+
 import React, { useState, useEffect, useRef } from 'react';
-import { TimerIcon } from './icons/TimerIcon';
-import { PlayIcon } from './icons/PlayIcon';
-import { PauseIcon } from './icons/PauseIcon';
-import Button from './common/Button';
+import { TimerIcon } from './icons/TimerIcon.tsx';
+import { PlayIcon } from './icons/PlayIcon.tsx';
+import { PauseIcon } from './icons/PauseIcon.tsx';
+import Button from './common/Button.tsx';
 
 const MiniFocusTimer: React.FC = () => {
     const [minutes, setMinutes] = useState(25);

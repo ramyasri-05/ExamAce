@@ -1,7 +1,8 @@
+
 import React from 'react';
-import Button from './common/Button';
-import { BrainCircuitIcon } from './icons/BrainCircuitIcon';
-import { GoogleIcon } from './icons/GoogleIcon';
+import Button from './common/Button.tsx';
+import { BrainCircuitIcon } from './icons/BrainCircuitIcon.tsx';
+import { GoogleIcon } from './icons/GoogleIcon.tsx';
 
 interface LoginProps {
     onLogin: () => void;

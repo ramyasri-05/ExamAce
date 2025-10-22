@@ -1,12 +1,13 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { QuizResult } from '../types';
-import { startChatSession, generateImageFromPrompt } from '../services/geminiService';
-import type { Chat } from '../services/geminiService';
-import { XIcon } from './icons/XIcon';
-import { SendIcon } from './icons/SendIcon';
-import { BrainCircuitIcon } from './icons/BrainCircuitIcon';
-import { HistoryIcon } from './icons/HistoryIcon';
+import { QuizResult } from '../types.ts';
+import { startChatSession, generateImageFromPrompt } from '../services/geminiService.ts';
+import type { Chat } from '../services/geminiService.ts';
+import { XIcon } from './icons/XIcon.tsx';
+import { SendIcon } from './icons/SendIcon.tsx';
+import { BrainCircuitIcon } from './icons/BrainCircuitIcon.tsx';
+import { HistoryIcon } from './icons/HistoryIcon.tsx';
 
 interface ChatbotProps {
     subjectName: string;

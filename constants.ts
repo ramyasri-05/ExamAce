@@ -1,13 +1,14 @@
-import { DumbbellIcon } from './components/icons/DumbbellIcon';
-import { BookOpenIcon } from './components/icons/BookOpenIcon';
-import { TargetIcon } from './components/icons/TargetIcon';
-import { BarChartIcon } from './components/icons/BarChartIcon';
-import { BrainCircuitIcon } from './components/icons/BrainCircuitIcon';
-import { AwardIcon } from './components/icons/AwardIcon';
-import { ListIcon } from './components/icons/ListIcon';
-import { ScaleIcon } from './components/icons/ScaleIcon';
-import { GraduationCapIcon } from './components/icons/GraduationCapIcon';
-import { Subject, QuizResult, StudyPlanItem } from './types';
+
+import { DumbbellIcon } from './components/icons/DumbbellIcon.tsx';
+import { BookOpenIcon } from './components/icons/BookOpenIcon.tsx';
+import { TargetIcon } from './components/icons/TargetIcon.tsx';
+import { BarChartIcon } from './components/icons/BarChartIcon.tsx';
+import { BrainCircuitIcon } from './components/icons/BrainCircuitIcon.tsx';
+import { AwardIcon } from './components/icons/AwardIcon.tsx';
+import { ListIcon } from './components/icons/ListIcon.tsx';
+import { ScaleIcon } from './components/icons/ScaleIcon.tsx';
+import { GraduationCapIcon } from './components/icons/GraduationCapIcon.tsx';
+import { Subject, QuizResult, StudyPlanItem } from './types.ts';
 
 export const MOCK_SUBJECTS: Subject[] = [
   {

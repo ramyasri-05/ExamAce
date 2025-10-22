@@ -1,8 +1,9 @@
+
 import React, { useState } from 'react';
-import Button from './common/Button';
-import Card from './common/Card';
-import { XIcon } from './icons/XIcon';
-import { TargetIcon } from './icons/TargetIcon';
+import Button from './common/Button.tsx';
+import Card from './common/Card.tsx';
+import { XIcon } from './icons/XIcon.tsx';
+import { TargetIcon } from './icons/TargetIcon.tsx';
 
 interface SetGoalModalProps {
     currentGoal: number;

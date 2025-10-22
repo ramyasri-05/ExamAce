@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <base href="/ExamAce/">
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ExamAce - Your AI Coach</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,21 +21,32 @@
         },
       }
     </script>
-  <script type="importmap">
+    
+    <!-- Babel Standalone for in-browser transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Import Map for dependencies -->
+    <script type="importmap">
 {
   "imports": {
     "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
     "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
     "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0"
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "vite": "https://aistudiocdn.com/vite@^7.1.11",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.0.4"
   }
 }
 </script>
-</head>
+  </head>
   <body class="bg-[#F7F8FA] text-gray-900 antialiased">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+    
+    <!-- Main application entry point, transpiled by Babel -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="index.tsx"></script>
+
   </body>
 </html>
